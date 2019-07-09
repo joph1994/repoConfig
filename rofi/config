@@ -1,13 +1,22 @@
-rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
-rofi.color-normal: argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
-rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
-rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
-rofi.width: 100
-rofi.lines: 5
+! Enable the extended coloring options
+r-enabled: true
+!                  bg             border   separator
+rofi.color-window: argb:992f343f, argb:00000000,  900000,
+!                  bg             fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: argb:00000000, #FFFFFF, 000000, 000000,   #f8ae19
+rofi.color-active: argb:00000000, #FFFFFF, argb:00000000,   argb:00000000, #f8ae19
+rofi.color-urgent: #2f343f, #2f343f, #2f343f, #2f343f, #2f343f
+
+rofi.separator-style: none
+rofi.sidebar-mode: true
+rofi.bw: 1
 rofi.columns: 1
-rofi.font: Noto Sans 14
-rofi.bw: 0
-rofi.padding: 400
-rofi.eh: 1
-!rofi.separator-style: solid
-rofi.hide-scrollbar: true
+rofi.padding: 16
+
+rofi.yoffset: 0
+rofi.fake-transparency: true
+rofi.location: 0
+rofi.width: 500
+rofi.font:System San Francisco Display 10
+rofi.lines: 5
+rofi.fixed-num-lines: true
